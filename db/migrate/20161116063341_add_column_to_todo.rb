@@ -1,0 +1,6 @@
+class AddColumnToTodo < ActiveRecord::Migration[5.0]
+  def change
+    add_column :todos, :title, :string
+    add_column :todos, :description, :string
+  end
+end
